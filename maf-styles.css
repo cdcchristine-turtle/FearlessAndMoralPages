@@ -1,0 +1,22 @@
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: brown;  
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', sans-serif;
+    color: black;
+}
+
+header {
+    background-color: burlywood;
+}
+
+hr {
+    border: 2px solid brown;
+}
