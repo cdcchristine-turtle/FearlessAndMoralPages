@@ -3,8 +3,17 @@
     color: brown;  
 }
 
+header {
+    background-color: burlywood;
+}
+
 h1 {
     text-align: center;
+}
+
+img {
+  padding: left 100em top 10em right 100em bottom 10em; 
+  border: 2em solid burlywood;
 }
 
 h2 {
@@ -13,10 +22,11 @@ h2 {
     color: black;
 }
 
-header {
-    background-color: burlywood;
+hr {
+    border: 2em solid brown;
 }
 
-hr {
-    border: 2px solid brown;
+footer {
+    background-color: burlywood;
+    text-align: right;
 }
