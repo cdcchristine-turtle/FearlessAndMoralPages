@@ -18,5 +18,13 @@ header {
 }
 
 hr {
-    border: 2px solid brown;
+    border: 10px solid brown;
 }
+
+.hlink {
+    color: black;
+}
+
+footer > hr {
+    border: 5px solid brown;
+}    
