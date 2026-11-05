@@ -1,8 +1,11 @@
+/* This css stylesheet is for the Home page of Fearless and Moral Pages.
+This section contains the basic styles for the page. */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: brown;  
 }
 
+/* This section contains the styles for the headings and the header of the page. */
 h1 {
     text-align: center;
 }
@@ -17,6 +20,7 @@ header {
     background-color: burlywood;
 }
 
+/* This section contains the styles for the links and the footer of the page. */
 hr {
     border: 10px solid brown;
 }
