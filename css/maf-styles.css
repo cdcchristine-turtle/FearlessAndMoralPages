@@ -48,7 +48,7 @@ section1 {
 
 /* This section contains the styles for the links and the footer of the page. */
 hr {
-    border: 3px solid brown;
+    border: 3px solid darkred;
 }
 
 .hlink {
@@ -56,5 +56,11 @@ hr {
 }
 
 footer>hr {
-    border: 5px solid brown;
+    border: 3px solid darkred;
+}
+
+/* This link style will be to change the default hover over the links that are not part of the navigation menu. */
+main a:hover, section1 a:hover, aside a:hover {
+    font-size: 1.5em;
+    color: rebeccapurple;
 }
