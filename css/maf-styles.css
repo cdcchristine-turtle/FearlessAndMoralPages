@@ -45,7 +45,10 @@ img {
 section1 {
     clear: right;
 }
-
+section1>ul a:hover {
+    font-size: 1.5em;
+    color: rebeccapurple;
+}
 /* This section contains the styles for the links and the footer of the page. */
 hr {
     border: 3px solid darkred;
@@ -60,7 +63,7 @@ footer>hr {
 }
 
 /* This link style will be to change the default hover over the links that are not part of the navigation menu. */
-section1>ul a:hover, aside>ul a:hover {
+aside>ul a:hover {
     font-size: 1.5em;
     color: rebeccapurple;
 }
