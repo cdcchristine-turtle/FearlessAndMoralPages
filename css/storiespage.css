@@ -1,0 +1,22 @@
+/* This css stylesheet is for the Home page of Fearless and Moral Pages.
+This section contains the basic styles for the page. */
+* {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: darkred;
+}
+
+/* This section contains the styles for the headings and the header of the page. */
+h1 {
+    text-align: center;
+    text-shadow: -2px 2px 4px white;
+}
+
+h2 {
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', sans-serif;
+    color: black;
+}
+
+header {
+    background-color: darkgoldenrod;
+}

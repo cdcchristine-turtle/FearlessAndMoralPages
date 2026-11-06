@@ -2,12 +2,13 @@
 This section contains the basic styles for the page. */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: brown;  
+    color: darkred;
 }
 
 /* This section contains the styles for the headings and the header of the page. */
 h1 {
     text-align: center;
+    text-shadow: -2px 2px 4px white;
 }
 
 h2 {
@@ -17,18 +18,43 @@ h2 {
 }
 
 header {
-    background-color: burlywood;
+    background-color: darkgoldenrod;
+}
+/* The main will contain an image and a nav menu side by side. */
+main {
+    display: flex;
+    padding-top: 1em;
+}
+main ul {
+    line-height: 2em;
+    list-style-type: none;
+    flex-basis: 35%;
+    float: left;
+    border-radius: 1em;
+    padding: .75em 8em 2em 3em;
+}
+
+img {
+    border: 2px solid darkred;
+    flex-basis: 65%;
+    float: right;
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+section1 {
+    clear: right;
 }
 
 /* This section contains the styles for the links and the footer of the page. */
 hr {
-    border: 10px solid brown;
+    border: 3px solid brown;
 }
 
 .hlink {
     color: black;
 }
 
-footer > hr {
+footer>hr {
     border: 5px solid brown;
-}    
+}
