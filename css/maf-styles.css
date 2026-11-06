@@ -60,7 +60,7 @@ footer>hr {
 }
 
 /* This link style will be to change the default hover over the links that are not part of the navigation menu. */
-main a.classlink, aside a :hover {
+main a.hlink href :hover, aside a :hover {
     font-size: 1.5em;
     color: rebeccapurple;
 }
