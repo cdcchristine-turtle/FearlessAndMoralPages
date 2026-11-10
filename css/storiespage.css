@@ -20,3 +20,7 @@ h2 {
 header {
     background-color: darkgoldenrod;
 }
+
+img {
+    border-radius: 50%;
+}

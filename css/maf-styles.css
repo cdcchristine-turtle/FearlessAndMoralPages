@@ -36,6 +36,7 @@ main ul {
 
 img {
     border: 2px solid darkred;
+    border-radius: 40%;
     flex-basis: 65%;
     float: right;
     margin-left: 1em;
