@@ -2,7 +2,7 @@
 This section contains the basic styles for the page. */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkred;
+    color: seagreen;
 }
 
 /* This section contains the styles for the headings and the header of the page. */
@@ -18,5 +18,18 @@ h2 {
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-color: rgb(155, 170, 155);
+}
+
+hr {
+    border: 3px solid seagreen;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* This section contains the styles for the footer of the page. */
+footer>hr {
+    border: 3px solid seagreen;
 }

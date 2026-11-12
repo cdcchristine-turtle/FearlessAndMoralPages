@@ -2,7 +2,7 @@
 This section contains the basic styles for the page. */
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: darkred;
+    color: midnightblue;
 }
 
 /* This section contains the styles for the headings and the header of the page. */
@@ -18,9 +18,36 @@ h2 {
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-color: lightsteelblue;
 }
 
-img {
+hr {
+    border: 3px solid midnightblue;
+}
+
+/* This section contains the styles for the page. */
+section1>img {
+    border: 2px solid midnightblue;
     border-radius: 50%;
+    float: left;
+    margin: 2em;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+aside>p {
+    font-size: 1rem;
+    padding-top: 3em;
+    color: midnightblue;
+}
+
+body>h2 {
+    clear: both;
+}
+
+/* This section contains the styles for the footer of the page. */
+footer>hr {
+    border: 3px solid midnightblue;
 }

@@ -18,8 +18,13 @@ h2 {
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-color: #b9922d;
 }
+
+hr {
+    border: 3px solid darkred;
+}
+
 /* The main will contain an image and a nav menu side by side. */
 main {
     display: flex;
@@ -31,18 +36,21 @@ main ul {
     flex-basis: 35%;
     float: left;
     border-radius: 1em;
-    padding: .75em 8em 2em 3em;
+    padding: .75em 3em 2em 3em;
 }
 
 img {
     border: 2px solid darkred;
-    border-radius: 40%;
+    border-radius: 20%;
     flex-basis: 65%;
     float: right;
     margin-left: 1em;
     margin-right: 1em;
 }
 
+p {
+    font-size: 1.2rem;
+}
 section1 {
     clear: right;
 }
@@ -51,14 +59,12 @@ section1>ul a:hover {
     color: rebeccapurple;
 }
 /* This section contains the styles for the links and the footer of the page. */
-hr {
-    border: 3px solid darkred;
-}
 
 .hlink {
     color: black;
 }
 
+/* This section contains the styles for the footer of the page. */
 footer>hr {
     border: 3px solid darkred;
 }

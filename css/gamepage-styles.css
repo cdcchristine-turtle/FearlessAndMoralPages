@@ -18,5 +18,18 @@ h2 {
 }
 
 header {
-    background-color: darkgoldenrod;
+    background-color: #b9922d;
+}
+
+hr {
+    border: 3px solid darkred;
+}
+
+p {
+    font-size: 1.2rem;
+}
+
+/* This section contains the styles for the footer of the page. */
+footer>hr {
+    border: 3px solid darkred;
 }
