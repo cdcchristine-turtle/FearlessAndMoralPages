@@ -31,12 +31,16 @@ main {
     padding-top: 1em;
 }
 main ul {
-    line-height: 2em;
+    line-height: 2rem;
     list-style-type: none;
     flex-basis: 35%;
     float: left;
     border-radius: 1em;
     padding: .75em 3em 2em 3em;
+}
+
+ul>li {
+      font-size: 1.2rem;
 }
 
 img {
@@ -51,11 +55,12 @@ img {
 p {
     font-size: 1.2rem;
 }
+
 section1 {
     clear: right;
 }
 section1>ul a:hover {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: rebeccapurple;
 }
 /* This section contains the styles for the links and the footer of the page. */
@@ -71,6 +76,6 @@ footer>hr {
 
 /* This link style will be to change the default hover over the links that are not part of the navigation menu. */
 aside>ul a:hover {
-    font-size: 1.5em;
+    font-size: 1.5rem;
     color: rebeccapurple;
 }
