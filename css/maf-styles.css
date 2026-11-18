@@ -28,6 +28,7 @@ hr {
 /* The main will contain an image and a nav menu side by side. */
 main {
     display: flex;
+    flex-wrap: wrap;
     padding-top: 1em;
 }
 main ul {
@@ -43,13 +44,28 @@ ul>li {
       font-size: 1.2rem;
 }
 
-img {
-    border: 2px solid darkred;
+main img {
+    border: 5px ridge darkred;
     border-radius: 20%;
-    flex-basis: 65%;
+    flex-basis: 15%;
+    width: 300px;
+    height: 400px;
     float: right;
     margin-left: 1em;
     margin-right: 1em;
+}
+
+main aside {
+    flex-basis: 50%;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: left;
+}
+
+h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    color: darkred;
 }
 
 p {
@@ -58,6 +74,9 @@ p {
 
 section1 {
     clear: right;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 section1>ul a:hover {
     font-size: 1.5rem;
