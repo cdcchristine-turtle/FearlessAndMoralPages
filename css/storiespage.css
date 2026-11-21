@@ -10,14 +10,17 @@ h1 {
     text-align: center;
     text-shadow: -2px 2px 4px white;
 }
+
 h2 {
     font-style: italic;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Sans Unicode', sans-serif;
     color: black;
 }
+
 header {
     background-color: lightsteelblue;
 }
+
 hr {
     border: 3px solid midnightblue;
 }
@@ -27,6 +30,7 @@ main {
     display: flex;
     flex-direction: row;
 }
+
 nav {
     line-height: 2rem;
     list-style-type: none;
@@ -35,18 +39,21 @@ nav {
     border-radius: 1em;
     padding: .75em 3em 2em 3em;
 }
+
 aside {
     font-size: 1rem;
     flex-basis: 60%;
     padding: 3em 30em 3em 3em;
     color: midnightblue;
 }
+
 img {
     border: 2px solid midnightblue;
     border-radius: 50%;
     float: left;
     margin: 2em;
 }
+
 p {
     font-size: 1.2rem;
 }
@@ -59,6 +66,7 @@ a.hlink:hover {
     font-size: 1.5rem;
     color: rebeccapurple;
 }
+
 /* This section contains the styles for the footer of the page. */
 footer>hr {
     border: 3px solid midnightblue;
